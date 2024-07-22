@@ -17,7 +17,12 @@ import "./App.css";
 const router = createBrowserRouter( createRoutesFromElements(
   /* Wrap this Root Route to create Router here */
   <Route path="/" element={ <Root/> }>
-    <route path="About" element={<About/>} />
+   <Route path="About" element={<About/>} />
+   <Route path="sign-up" element={<SignUp/>} />
+   <Route path="articles" element={<Articles/>} />
+   <Route path="categories" element={<Categories/>} />
+   <Route path="profile" element={<Profile/>} />
+  
   </Route>
 ))
 
